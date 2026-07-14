@@ -1,6 +1,6 @@
-# Premium Construction Demo — Cinematic 3D Experience
+# Northspire Construction Group — Cinematic 3D Demo
 
-A luxury, minimal construction-company website with a real-time 3D hero scene and a cinematic scroll-driven camera zoom. **Unbranded by design** — all names, logos and contact details are placeholders, ready for branding to be added later.
+A luxury, minimal construction-company website with a real-time 3D hero scene and a cinematic scroll-driven camera zoom. Branded as **Northspire Construction Group — an entirely fictional company** invented for this demo (name, logo, projects and contact details are all made up).
 
 ## The experience
 
@@ -35,4 +35,4 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-> Demo website. All content is realistic placeholder copy; branding, identity and contact details are intentionally omitted.
+> Demo website. "Northspire Construction Group" is a fictional brand; all content, projects, testimonials and contact details are invented.
