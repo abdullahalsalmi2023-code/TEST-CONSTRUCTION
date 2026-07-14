@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apex Construction — Building Tomorrow, Today</title>
+  <meta name="description" content="Apex Construction — commercial and residential construction, renovation, and project management. Quality builds, on time and on budget." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="logo">APEX<span>CONSTRUCTION</span></a>
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact" class="btn btn-small">Get a Quote</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">Trusted since 1998</p>
+      <h1>Building Tomorrow,<br />Today.</h1>
+      <p class="hero-sub">Commercial and residential construction delivered on time, on budget, and built to last. From groundbreaking to grand opening — we've got you covered.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn">Start Your Project</a>
+        <a href="#projects" class="btn btn-outline">View Our Work</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>25+</strong><span>Years experience</span></div>
+        <div><strong>480+</strong><span>Projects delivered</span></div>
+        <div><strong>98%</strong><span>On-time completion</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="section-eyebrow">What we do</p>
+      <h2 class="section-title">Our Services</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">🏢</div>
+          <h3>Commercial Construction</h3>
+          <p>Offices, retail, and industrial builds engineered for durability and delivered to spec.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🏠</div>
+          <h3>Residential Building</h3>
+          <p>Custom homes and multi-unit developments crafted with care, down to the last detail.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🔨</div>
+          <h3>Renovation &amp; Remodel</h3>
+          <p>Breathe new life into existing spaces with modern, functional redesigns.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">📐</div>
+          <h3>Project Management</h3>
+          <p>End-to-end oversight — budgeting, scheduling, and quality control from day one.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <p class="section-eyebrow">Selected work</p>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects">
+        <div class="project" style="--i:1">
+          <div class="project-body">
+            <span class="tag">Commercial</span>
+            <h3>Riverside Office Tower</h3>
+            <p>A 12-story LEED-certified office complex delivered three weeks ahead of schedule.</p>
+          </div>
+        </div>
+        <div class="project" style="--i:2">
+          <div class="project-body">
+            <span class="tag">Residential</span>
+            <h3>Maple Grove Estates</h3>
+            <p>A 40-home community blending modern design with sustainable materials.</p>
+          </div>
+        </div>
+        <div class="project" style="--i:3">
+          <div class="project-body">
+            <span class="tag">Renovation</span>
+            <h3>Historic Mill Lofts</h3>
+            <p>Transforming a 1920s textile mill into 60 premium loft apartments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container about">
+      <div class="about-text">
+        <p class="section-eyebrow">Who we are</p>
+        <h2 class="section-title">Built on Trust &amp; Craftsmanship</h2>
+        <p>For over 25 years, Apex Construction has partnered with clients to bring ambitious visions to life. Our team of skilled builders, engineers, and project managers treats every job — big or small — with the same commitment to quality and safety.</p>
+        <ul class="checklist">
+          <li>Licensed, bonded &amp; fully insured</li>
+          <li>Transparent, fixed-price quotes</li>
+          <li>Dedicated project manager on every build</li>
+          <li>Award-winning safety record</li>
+        </ul>
+      </div>
+      <div class="about-callout">
+        <blockquote>"Apex delivered our headquarters flawlessly — on time and exactly on budget. A genuine partner from start to finish."</blockquote>
+        <cite>— Sarah Mitchell, CEO, Northwind Retail</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-dark" id="contact">
+    <div class="container contact">
+      <div class="contact-intro">
+        <p class="section-eyebrow light">Get in touch</p>
+        <h2 class="section-title">Start Your Project</h2>
+        <p>Tell us about your build and we'll get back to you within one business day with a free, no-obligation estimate.</p>
+        <p class="contact-line">📞 (555) 012-3456</p>
+        <p class="contact-line">✉️ hello@apexconstruction.example</p>
+      </div>
+      <form class="contact-form" onsubmit="return handleSubmit(event)">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Email address" required />
+        <input type="text" name="project" placeholder="Project type (e.g. new home)" />
+        <textarea name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+        <button type="submit" class="btn">Request a Quote</button>
+        <p class="form-note" id="formNote" hidden>Thanks! This is a demo form — no message was actually sent.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="logo">APEX<span>CONSTRUCTION</span></span>
+      <p>&copy; <span id="year"></span> Apex Construction. Demo website.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
